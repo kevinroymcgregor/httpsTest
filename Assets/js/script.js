@@ -20,7 +20,7 @@ let queryString =
 //'https://api.meetup.com/find/groups?zip=11211&radius=1&category=25&order=members&&sign=true'
 
 "https://secure.meetup.com/oauth2/authorize?client_id=40b5jegalp9o9b4470v1biqvdu&response_type=code" + 
-"&redirect_uri=http://127.0.0.1:5500/index.html"
+"&redirect_uri=https://kevinroymcgregor.github.io/httpsTest/"
 
 // 'https://api.meetup.com/find/groups?zip=11211&radius=1&category=25&order=members'
 
