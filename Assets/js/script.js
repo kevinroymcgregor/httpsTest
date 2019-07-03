@@ -46,7 +46,7 @@ $('#push').on('click', function(){
 let accessToken = getUrlParameter('code');
 
 if(accessToken != ""){
-  let queryURL = 'https://api.meetup.com/find/events?zip=10021' + '?access_token=' + accessToken
+  let queryURL = 'https://api.meetup.com/find/events?zip=85204' + '?access_token=' + accessToken + '&sign=true'
   $.ajax({
     url: queryURL,
     method: "GET"
